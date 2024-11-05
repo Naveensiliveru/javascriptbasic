@@ -1,0 +1,13 @@
+ var product ={
+    pName : Iphone ,
+     price:  115000,
+      rating : 4.6,
+    category : "Electronic ",
+
+ };
+ 
+ console.log (product.pName);s
+
+  var x = product.rating
+   console.log(x);
+   console.log(product.category);

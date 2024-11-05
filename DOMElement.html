@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Document</title>
+   <script>
+function createDOMButton(){
+    var  btnRef= document.createElement("button");
+      btnRef.innerText= "JavaSript Button";
+      document.getElementById("body").appendChild(btnRef);
+      btnRef.style.color= "red";
+     btnref.style.border="none";
+     btnRef.style.padding= "15px 25px";
+     btnRef.style.backgroundColor="darkred";
+    
+} 
+</script>
+</head>
+<body id ="body">
+    <h2> DOM Element</h2>
+    <button> HTML Button</button>
+    <button  onclick="createDOMButton()"> Create DOM Button</Button></button>
+</body>
+</html>
